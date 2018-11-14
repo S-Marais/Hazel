@@ -1,11 +1,10 @@
 #pragma once
 
-#ifdef HZ_PLATFORM_WINDOWS
+//#ifdef HZ_PLATFORM_WINDOWS
 
 extern Hazel::Application* Hazel::CreateApplication();
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
 	Hazel::Log::Init();
 	HZ_CORE_WARN("Initialized Log!");
 	int a = 5;
@@ -16,4 +15,4 @@ int main(int argc, char** argv)
 	delete app;
 }
 
-#endif
+//#endif

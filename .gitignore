@@ -1,7 +1,9 @@
 # Directories
-.vs/
+.idea/
 bin/
 bin-int/
+cmake-build-debug/
+cmake-build-release/
 
 # Files
 *.user
